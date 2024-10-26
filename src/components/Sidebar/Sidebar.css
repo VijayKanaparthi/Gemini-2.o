@@ -1,0 +1,91 @@
+.sidebar-background {
+  background-color: #eff5f6;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.menu-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.chat {
+  background-color: #e6ebef;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.chat p {
+  color: #898989;
+}
+.plus-icon {
+  width: 30px;
+  height: 30px;
+}
+.recent-text {
+  font-size: 20px;
+}
+.recent-questions {
+  display: flex;
+  gap: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6ebef;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.recent-question-image {
+  width: 30px;
+  height: 30px;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.help {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  width: 150px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.help img {
+  width: 30px;
+  height: 30px;
+}
+.activity {
+  display: flex;
+  gap: 15px;
+  width: 150px;
+  align-items: center;
+  cursor: pointer;
+}
+.activity img {
+  width: 30px;
+  height: 30px;
+}
+.settings {
+  display: flex;
+  gap: 15px;
+  width: 150px;
+  align-items: center;
+  cursor: pointer;
+}
+.settings img {
+  width: 30px;
+  height: 30px;
+}
